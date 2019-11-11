@@ -2,6 +2,8 @@
 import click
 import glob 
 
+# this is bad code intentionally
+varbad=
 
 @click.command()
 @click.option('--path', prompt='Path to search for csv files',
