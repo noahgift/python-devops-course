@@ -6,11 +6,12 @@ install:
 		pip install -r requirements.txt
 
 test:
+	python -m pytest test_gcli.py
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
 
 
 lint:
-	pylint --disable=R,C *.py
+	pylint --disable=R,C gcli.py hello-click.py
 
 all: install lint test
