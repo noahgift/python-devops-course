@@ -10,8 +10,9 @@ import glob
               help="Pass in the file type:  i.e csv")
 def search(path, ftype):
     results = glob.glob(f"{path}/*.{ftype}")
-    click.echo(f'These are my results: {results}')
-
+    click.echo(click.style('Found Matches:', fg='red'))
+    for result in results:
+       click.echo(click.style(f'{result}', bg='blue', fg='white')) 
 if __name__ == '__main__':
     search()
 
