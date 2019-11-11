@@ -44,3 +44,11 @@ jobs:
           command: |
             . venv/bin/activate
             make lint
+            # run tests!
+      
+      # run tests!
+      - run:
+          name: run tests
+          command: |
+            . venv/bin/activate
+            make test
