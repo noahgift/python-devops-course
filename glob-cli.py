@@ -12,8 +12,9 @@ def search(path, ftype):
     results = glob.glob(f"{path}/*.{ftype}")
     click.echo(click.style('Found Matches:', fg='red'))
     for result in results:
-       click.echo(click.style(f'{result}', bg='blue', fg='white')) 
+        click.echo(click.style(f'{result}', bg='blue', fg='white')) 
 if __name__ == '__main__':
+    #pylint: disable=no-value-for-parameter
     search()
 
 
