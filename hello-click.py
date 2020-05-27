@@ -3,7 +3,8 @@ import click
 
 @click.command()
 def hello():
-    """This is a hello world cli
+    """This is a hello world cli:
+    
     To run it type in ./hello-click.py
     """
     click.echo('Hello World!')
