@@ -9,5 +9,8 @@ test:
 
 lint:
 	pylint --disable=R,C,E1120 helloclick.py
+	
+format:
+	black *.py
 
 all: install lint test
