@@ -1,0 +1,4 @@
+pylint
+click
+pytest
+pytest-cov

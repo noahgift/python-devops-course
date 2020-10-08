@@ -1,6 +1,5 @@
 import click
 
-
 @click.command()
 @click.option("--phrase", prompt="Enter a phrase", help="")
 def tokenize(phrase):
@@ -11,3 +10,4 @@ def tokenize(phrase):
 
 if __name__ == "__main__":
     tokenize()
+
