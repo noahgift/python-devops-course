@@ -1,6 +1,8 @@
 import click
 
-# var=
+# subtle bug that may burn you
+# var=[]
+# var
 
 
 @click.command()
@@ -12,7 +14,9 @@ import click
 def tokenize(phrase):
     """This is a commandline tool that tokenizes phrases"""
 
-    click.echo(f"tokenized phrase: {phrase.split()}")
+    click.echo(
+        click.style(f"tokenized phrase: {phrase.split()}", bg="yellow", fg="blue")
+    )
 
 
 if __name__ == "__main__":
