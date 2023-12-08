@@ -16,7 +16,7 @@ def tokenize(phrase):
 
     click.style(click.style('ATTENTION', blink=True, bold=True))
 
-    click.echo(click.style(f"tokenized phrase: {phrase.split()}", bg='blue', fg='white'))
+    click.echo(click.style(f"tokenized phrase: {phrase.split()}", bg='yellow', fg='white'))
 
 
 if __name__ == "__main__":
