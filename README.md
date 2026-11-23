@@ -5,18 +5,6 @@
 # python-devops
 A repo for a course on Python DevOps
 
-## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
-
-### 🔥 Hot Course Offers:
-* 🤖 [Master GenAI Engineering](https://ds500.paiml.com/learn/course/0bbb5/) - Build Production AI Systems
-* 🦀 [Learn Professional Rust](https://ds500.paiml.com/learn/course/g6u1k/) - Industry-Grade Development
-* 📊 [AWS AI & Analytics](https://ds500.paiml.com/learn/course/31si1/) - Scale Your ML in Cloud
-* ⚡ [Production GenAI on AWS](https://ds500.paiml.com/learn/course/ehks1/) - Deploy at Enterprise Scale
-* 🛠️ [Rust DevOps Mastery](https://ds500.paiml.com/learn/course/ex8eu/) - Automate Everything
-
-### 🚀 Level Up Your Career:
-* 💼 [Production ML Program](https://paiml.com) - Complete MLOps & Cloud Mastery
-* 🎯 [Start Learning Now](https://ds500.paiml.com) - Fast-Track Your ML Career
-* 🏢 Trusted by Fortune 500 Teams
-
-Learn end-to-end ML engineering from industry veterans at [PAIML.COM](https://paiml.com)
+<!-- FUNNEL-001 footer: replace python-devops-course with the repo name -->
+---
+📚 **Learn this hands-on:** [Pragmatic AI Labs courses on Coursera](https://www.coursera.org/partners/pragmatic-ai-labs?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=python-devops-course) · ✉ [Free newsletter](https://ds500.paiml.com/mailing?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=python-devops-course)
